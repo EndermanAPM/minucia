@@ -1,0 +1,15 @@
+[
+{
+  "modid": "enderminucia",
+  "name": "Minucia",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Endermanapm"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
