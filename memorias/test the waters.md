@@ -38,6 +38,11 @@ Build
 
     gradlew setupDecompWorkspace idea
     
+####Problems:
+
+Under Intel HD Graphics 3000 you **must** use Java 8u45. 
+
+
 ###Main Mod Class
 
 ./src/main/java - new package
