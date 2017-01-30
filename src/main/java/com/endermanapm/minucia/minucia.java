@@ -1,5 +1,6 @@
 package com.endermanapm.minucia;
 
+import com.endermanapm.minucia.init.ModItems;
 import com.endermanapm.minucia.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -24,10 +25,13 @@ public class minucia {
     public void preInit(FMLPreInitializationEvent event) {
         System.out.println(Reference.name + " is loading!");
         System.out.println("Sup niggers");
+        ModItems.init();
+        ModItems.register();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        proxy.init();
 
     }
 
