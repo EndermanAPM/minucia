@@ -11,6 +11,11 @@ https://shadowfacts.net/tutorials/forge-modding-1102/
 https://www.youtube.com/playlist?list=PLy11IosblXIH-OIKa5yYs-KEA2LCohV8g
 http://www.pahimar.com/tutorials/lets-mod/
 
+####Starred repos
+ EE3: https://github.com/pahimar/Equivalent-Exchange-3
+ 
+ Botania: https://github.com/Vazkii/Botania
+
 ##Setting up the Development Environment
 
 Download Forge MDK
@@ -45,3 +50,10 @@ Ver ==> https://shadowfacts.net/tutorials/forge-modding-1102/main-mod-class/
   we’re working with GUIs.
 - @Mod.EventHandler methods (L15, L20, L25): This annotation marks our preInit, init, and postInit
  methods to be called by Forge. Forge determines which method to call for which lifecycle event by checking the parameter of the method, so these methods can be named anything you want.
+ 
+### Proxy System
+New package **proxy**
+
+2 Classes **ClientProxy / ServerProxy**
+
+Interface **CommonPorxy**
